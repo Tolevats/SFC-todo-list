@@ -19,18 +19,6 @@
           <button @click="saveTask(index)">Guardar</button>
         </div>
       </li>
-<!--       <li v-for="(task, index) in tasks" :key="index">
-        <span v-if="!task.isEditing">{{ task.name }}</span>
-        <input v-else v-model="task.name" /> -->
-
-        <!-- Botón para editar -->
-<!--         <button @click="editarTarea(index)">
-          {{ tarea.editando ? 'Guardar' : 'Editar' }}
-        </button> -->
-
-        <!-- botón para eliminar -->
-<!--         <button @click="eliminarTarea(index)">Eliminar</button>
-      </li> -->
     </ul>
   </div>
 </template>
